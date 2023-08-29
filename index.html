@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUTUBE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="ytmenu">
+        <!--MENU ICON-->
+        <a href="#" class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="white"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </a>
+        <!--YOUTUBE LOGO-->
+        <a href="#" class="youtube-logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            width="29"
+            height="29"
+            viewBox="0 0 256 256"
+            xml:space="preserve"
+          >
+            <defs></defs>
+            <g
+              style="
+                stroke: none;
+                stroke-width: 0;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 10;
+                fill: none;
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+            >
+              <path
+                d="M 88.119 23.338 c -1.035 -3.872 -4.085 -6.922 -7.957 -7.957 C 73.144 13.5 45 13.5 45 13.5 s -28.144 0 -35.162 1.881 c -3.872 1.035 -6.922 4.085 -7.957 7.957 C 0 30.356 0 45 0 45 s 0 14.644 1.881 21.662 c 1.035 3.872 4.085 6.922 7.957 7.957 C 16.856 76.5 45 76.5 45 76.5 s 28.144 0 35.162 -1.881 c 3.872 -1.035 6.922 -4.085 7.957 -7.957 C 90 59.644 90 45 90 45 S 90 30.356 88.119 23.338 z"
+                style="
+                  stroke: none;
+                  stroke-width: 1;
+                  stroke-dasharray: none;
+                  stroke-linecap: butt;
+                  stroke-linejoin: miter;
+                  stroke-miterlimit: 10;
+                  fill: rgb(255, 0, 0);
+                  fill-rule: nonzero;
+                  opacity: 1;
+                "
+                transform=" matrix(1 0 0 1 0 0) "
+                stroke-linecap="round"
+              />
+              <polygon
+                points="36,58.5 59.38,45 36,31.5 "
+                style="
+                  stroke: none;
+                  stroke-width: 1;
+                  stroke-dasharray: none;
+                  stroke-linecap: butt;
+                  stroke-linejoin: miter;
+                  stroke-miterlimit: 10;
+                  fill: rgb(255, 255, 255);
+                  fill-rule: nonzero;
+                  opacity: 1;
+                "
+                transform="  matrix(1 0 0 1 0 0) "
+              />
+            </g>
+          </svg>
+          <!--YOUTUBE IMAGE-->
+        </a>
+      </div>
+      <!--SEARCH BAR-->
+      <div class="top">
+        <div class="search-01">
+          <form class="search-bar">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <!--SEARCH BUTTON-->
+            <button type="submit" class="search-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="white"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <!--VOICE BUTTON (MIC)-->
+          <button class="voice">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="white"
+              class="bi bi-mic-fill"
+              viewBox="0 0 16 16"
+            >
+              <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
+              <path
+                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="menu-icons">
+          <!--CAMERA REC-->
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="white"
+              class="bi bi-camera-reels"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"
+              />
+              <path
+                d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"
+              />
+              <path
+                d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+              />
+            </svg>
+          </a>
+          <!--BELL ICON-->
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              fill="white"
+              class="bi bi-bell"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+              />
+            </svg>
+          </a>
+          <!--PROFILE-->
+          <a href="#">
+            <img
+              class="menu-channel-icon"
+              src="./photo-1498579687545-d5a4fffb0a9e.avif"
+              alt="Your Channel"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="sidebar">
+      <div>
+        <div class="icons1">
+          <div class="home">
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="23"
+              height="23"
+              fill="white"
+              viewBox="0 0 48 48"
+            >
+              <path
+                d="M39.5,43h-9c-1.381,0-2.5-1.119-2.5-2.5v-9c0-1.105-0.895-2-2-2h-4c-1.105,0-2,0.895-2,2v9c0,1.381-1.119,2.5-2.5,2.5h-9	C7.119,43,6,41.881,6,40.5V21.413c0-2.299,1.054-4.471,2.859-5.893L23.071,4.321c0.545-0.428,1.313-0.428,1.857,0L39.142,15.52	C40.947,16.942,42,19.113,42,21.411V40.5C42,41.881,40.881,43,39.5,43z"
+              ></path>
+            </svg>
+            <p>Home</p>
+          </a>
+          </div>
+        
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                width="23"
+                height="23"
+                viewBox="0 0 256 256"
+                xml:space="preserve"
+              >
+                <defs></defs>
+                <g
+                  style="
+                    stroke: none;
+                    stroke-width: 0;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: none;
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+                >
+                  <path
+                    d="M 25.049 54.331 c -1.651 -0.978 -3.118 -1.834 -4.646 -2.69 c -4.34 -2.506 -7.641 -6.174 -8.497 -11.126 c -1.345 -7.947 -0.122 -14.671 8.314 -19.745 c 10.637 -6.358 21.396 -12.41 32.155 -18.584 c 10.515 -5.991 24.391 0.978 25.981 13.021 c 1.1 7.336 -2.506 14.549 -9.047 18.095 c -1.406 0.795 -2.873 1.651 -4.463 2.629 c 1.589 0.917 2.934 1.773 4.34 2.567 c 11.187 6.296 12.654 21.151 2.812 29.343 c -1.956 1.589 -4.279 2.751 -6.48 4.035 c -9.231 5.38 -18.523 10.759 -27.815 16.016 c -8.619 4.646 -19.379 1.345 -24.024 -7.275 c -4.401 -8.192 -1.712 -18.339 6.113 -23.291 C 21.565 56.41 23.215 55.431 25.049 54.331 z"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: white;
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform=" matrix(1 0 0 1 0 0) "
+                    stroke-linecap="round"
+                  />
+                  <polygon
+                    points="36.36,58.55 59.47,45.16 36.36,31.84 "
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: black;
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform="  matrix(1 0 0 1 0 0) "
+                  />
+                </g>
+              </svg>
+              <p>Shorts</p>
+            </a>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="white"
+                class="bi bi-collection-play"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"
+                />
+                <path
+                  d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"
+                />
+              </svg>
+              <p>Subscriptions</p>
+            </a>
+          </a>
+          
+        </div>
+        <div class="icons2">
+          <a href="">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="white"
+                stroke="none"
+              >
+                <path
+                  d="M1200 4464 c-45 -20 -87 -59 -111 -106 -19 -37 -19 -77 -17 -1596 l3
+-1559 27 -39 c15 -21 44 -50 65 -64 l37 -25 1545 -3 c1094 -2 1557 0 1584 8
+49 14 106 65 128 115 18 38 19 112 19 1569 0 1181 -3 1538 -12 1570 -16 53
+-81 118 -134 134 -32 9 -388 12 -1570 12 -1344 -1 -1533 -3 -1564 -16z m3068
+-1691 l2 -1493 -1495 0 -1495 0 0 1495 0 1495 1493 -2 1492 -3 3 -1492z"
+                />
+                <path
+                  d="M2130 2770 l0 -852 23 14 c12 8 325 200 695 428 370 227 671 414 670
+415 -12 10 -1361 837 -1373 841 -13 6 -15 -82 -15 -846z m615 230 c182 -111
+338 -208 348 -215 16 -11 -26 -40 -357 -244 -207 -127 -378 -231 -381 -231 -3
+0 -5 210 -5 466 l0 466 33 -19 c17 -11 181 -111 362 -223z"
+                />
+                <path
+                  d="M765 4033 c-47 -24 -86 -64 -106 -108 -18 -38 -19 -102 -19 -1570 0
+-1056 3 -1542 11 -1569 14 -50 82 -118 135 -134 32 -9 389 -12 1570 -12 1467
+0 1531 1 1569 19 67 31 125 111 125 171 l0 20 -1597 2 -1598 3 -3 1598 -2
+1597 -28 0 c-15 -1 -40 -8 -57 -17z"
+                />
+              </g>
+            </svg>
+
+            <p>Library</p>
+          </a>
+          <a href="">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="white"
+                stroke="none"
+              >
+                <path
+                  d="M2560 4640 c-844 -63 -1567 -633 -1826 -1439 -26 -80 -48 -152 -50
+-158 -2 -10 -34 -13 -117 -13 -97 0 -119 -3 -157 -22 -76 -39 -109 -125 -76
+-201 8 -18 96 -114 197 -214 262 -259 255 -259 517 0 96 95 178 181 184 192
+35 64 25 140 -25 193 -35 36 -80 52 -149 52 l-47 0 28 83 c207 611 722 1063
+1347 1182 883 167 1757 -364 2018 -1228 223 -737 -65 -1541 -703 -1969 -891
+-597 -2087 -280 -2571 681 -46 92 -77 125 -132 139 -72 19 -145 -14 -179 -79
+-37 -74 -19 -140 95 -332 216 -368 561 -677 946 -848 284 -126 543 -181 855
+-181 194 0 332 16 495 57 698 174 1254 687 1480 1363 356 1065 -192 2216
+-1245 2615 -264 100 -599 148 -885 127z"
+                />
+                <path
+                  d="M2670 3838 c-47 -13 -95 -60 -109 -107 -17 -58 -15 -1174 3 -1221 18
+-49 400 -614 432 -639 71 -56 188 -26 232 59 42 81 35 95 -173 407 l-185 278
+0 561 0 561 -23 33 c-39 60 -111 87 -177 68z"
+                />
+              </g>
+            </svg>
+
+            <p>History</p>
+          </a>
+          <a href="">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="white"
+                stroke="none"
+              >
+                <path
+                  d="M1210 4683 c-88 -10 -209 -36 -261 -58 -142 -57 -286 -177 -375 -312
+-65 -97 -95 -168 -120 -283 -18 -81 -19 -158 -19 -1465 0 -1294 1 -1386 18
+-1469 23 -112 52 -184 112 -277 64 -99 144 -181 240 -244 101 -67 156 -92 270
+-118 89 -21 110 -21 1415 -25 1346 -3 1446 -1 1590 34 239 58 476 277 555 511
+51 153 50 120 50 1588 0 1284 -1 1376 -18 1459 -24 117 -54 189 -121 290 -121
+182 -291 300 -501 349 -89 21 -107 21 -1445 23 -745 0 -1371 -1 -1390 -3z
+m2723 -432 c119 -23 228 -105 281 -209 51 -101 51 -102 51 -1482 0 -1380 0
+-1381 -51 -1482 -33 -65 -107 -139 -172 -172 -101 -51 -102 -51 -1482 -51
+-1380 0 -1381 0 -1482 51 -65 33 -139 107 -172 172 -51 101 -51 102 -51 1482
+0 1380 0 1381 51 1482 48 94 157 182 254 203 86 19 330 22 1485 20 882 -2
+1247 -6 1288 -14z"
+                />
+                <path
+                  d="M2028 3625 c-91 -34 -158 -101 -195 -195 -17 -42 -18 -101 -18 -870
+l0 -825 23 -57 c28 -69 90 -135 157 -168 42 -21 65 -25 140 -25 85 0 94 2 156
+36 82 46 1146 729 1215 781 89 67 134 153 134 258 0 105 -45 191 -134 258 -70
+52 -1134 736 -1215 780 -56 31 -75 36 -145 39 -53 2 -94 -2 -118 -12z m819
+-886 c150 -96 273 -176 273 -179 0 -3 -123 -83 -273 -179 -149 -96 -347 -223
+-439 -283 l-168 -107 0 569 0 569 168 -107 c92 -60 290 -187 439 -283z"
+                />
+              </g>
+            </svg>
+
+            <p>Your videos</p>
+          </a>
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              fill="white"
+              class="bi bi-clock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+              />
+            </svg>
+            <p>Watch Later</p>
+          </a>
+          <a href="">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="white"
+                stroke="none"
+              >
+                <path
+                  d="M3022 4575 c-73 -16 -157 -52 -225 -98 -34 -22 -216 -227 -604 -679
+l-556 -648 -389 0 c-248 0 -405 -4 -432 -11 -54 -13 -100 -60 -115 -114 -14
+-51 -15 -2151 -1 -2210 11 -50 63 -100 119 -115 28 -7 474 -10 1513 -8 1403 3
+1476 4 1528 22 184 62 319 182 384 343 14 34 80 336 161 743 145 721 153 774
+126 890 -48 202 -215 378 -417 436 -49 15 -123 18 -442 23 l-382 6 186 280
+c103 154 197 302 209 330 48 109 62 251 35 366 -37 163 -163 322 -310 392
+-129 61 -262 79 -388 52z m230 -329 c125 -53 197 -217 148 -336 -8 -19 -139
+-223 -292 -453 -263 -394 -278 -420 -278 -463 0 -58 23 -108 64 -137 31 -22
+32 -22 581 -27 610 -6 583 -3 663 -74 44 -40 76 -100 86 -161 5 -30 -27 -206
+-128 -718 -148 -742 -150 -749 -230 -808 -83 -61 -51 -59 -1068 -59 l-928 0 0
+961 0 961 543 633 c298 348 556 643 574 655 75 52 179 62 265 26z m-1702
+-2326 l0 -910 -270 0 -270 0 0 910 0 910 270 0 270 0 0 -910z"
+                />
+              </g>
+            </svg>
+            <p>Liked videos</p>
+          </a>
+          <a href="">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="white"
+                stroke="none"
+              >
+                <path
+                  d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744
+-743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49
+-69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769
+762 -785 768 -38 14 -85 12 -122 -4z"
+                />
+              </g>
+            </svg>
+
+            <p>Show more</p>
+          </a>
+        </div>
+      </div>
+      <div class="subscriber">
+        <h3 >Subscriptions</h3>
+
+      </div>
+    </div>
+    <!--CATEGORIES-->
+    <div class="categories">
+      <section class="category-section">
+        <button class="category active">All</button>
+        <button class="category">music</button>
+        <button class="category">Art</button>
+        <button class="category">Maths</button>
+        <button class="category">history</button>
+        <button class="category">Vlogs</button>
+        <button class="category">Kpop</button>
+        <button class="category">CSS</button>
+        <button class="category">Skin Care</button>
+        <button class="category">HTML</button>
+        <button class="category">Art</button>
+        <button class="category">Maths</button>
+        <button class="category">history</button>
+        <button class="category">Vlogs</button>
+        <button class="category">Kpop</button>
+        <button class="category">CSS</button>
+        <button class="category">Skin Care</button>
+        <button class="category">HTML</button>
+      </section>
+    </div>
+    <div class="videos">
+      <section class="video-section">
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?bridge"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?student"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">How London BRidge was made?</a>
+              <a href="#" class="video-channel-name">BRIDGES</a>
+              <div class="video-metadata">
+                <span>1M views</span>
+                •
+                <span>3 days ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?music"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?PINK"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Friday Night</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="2:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?maths"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?student"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">guide to matth</a>
+              <a href="#" class="video-channel-name">mathongo</a>
+              <div class="video-metadata">
+                <span>665k views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="18:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?food"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?splash"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Food Vlog</a>
+              <a href="#" class="video-channel-name">EAt</a>
+              <div class="video-metadata">
+                <span>20M views</span>
+                •
+                <span>8 weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="9:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?party"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?man"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Party Vlog</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>122K views</span>
+                •
+                <span>2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?classroom"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?school"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Maintain Decorom</a>
+              <a href="#" class="video-channel-name"> classx</a>
+              <div class="video-metadata">
+                <span>123K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?civics"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?student"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">learn civics</a>
+              <a href="#" class="video-channel-name">CEEVEEK</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?skincare"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?FLOWERS"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">glass skin in a day</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?houses"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?luxury"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title"
+                >10 million dollars!! its just the starting</a
+              >
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?india"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?violet"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Friday Night</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="video-section">
+        
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?communication"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?student"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title"
+                >Effective communication skills in 5 steps</a
+              >
+              <a href="#" class="video-channel-name">BRIDGES</a>
+              <div class="video-metadata">
+                <span>1M views</span>
+                •
+                <span>3 days ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?fancy"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?student"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Fancy</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>12K views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="2:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?study"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/? blue"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">guide for a grade A student</a>
+              <a href="#" class="video-channel-name">mathongo</a>
+              <div class="video-metadata">
+                <span>665k views</span>
+                •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="18:24">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?ornaments"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?splash"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Food Vlog</a>
+              <a href="#" class="video-channel-name">EAt</a>
+              <div class="video-metadata">
+                <span>20M views</span>
+                •
+                <span>8 weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="9:36">
+            <img
+              class="thumbnail-image"
+              src="https://source.unsplash.com/1600x900/?party"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://source.unsplash.com/1600x900/?man"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Party Vlog</a>
+              <a href="#" class="video-channel-name">robbbx</a>
+              <div class="video-metadata">
+                <span>122K views</span>
+                •
+                <span>2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+       
+        
+    
+        
+      </section>
+  </body>
+</html>
